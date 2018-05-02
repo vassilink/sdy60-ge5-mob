@@ -1,0 +1,207 @@
+<resources>
+    <string name="app_name">PoM2</string>
+
+    <string name="title_activity_main">PoM</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_review_path">Review Path</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_game_players">Rank of Players</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Menu Items-->
+    <string name="action_menu">Menu</string>
+    <string name="submenu_show_maps">Show Map</string>
+    <string name="submenu_review_paths">Review - Suggest</string>
+    <string name="submenu_rank_list_of_players">Ranking</string>
+    <string name="submenu_log_out">Log out</string>
+    <string name="submenu_settings">Settings</string>
+    <string name="submenu_about">About</string>
+
+    <!-- Google Maps Key -->
+    <string name="google_maps_key">AIzaSyAQLZeQXnBL5AU93X4L8KeLQfqEVDzKy9A</string>
+
+    <!-- Supported Maps Names -->
+    <string name="map_of_athens">Map of Athens</string>
+    <string name="map_of_chania">Map of Chania</string>
+    <string name="map_of_corfu">Map of Corfu</string>
+    <string name="map_of_greece">Paths Map</string>
+
+    <!-- About Popup -->
+    <string name="about_title">About</string>
+    <string name="about_msg">PeersOnMap</string>
+    <string name="about_details">Do you have questions or comments about PeersOnMap? Please contact me at: antpapapol@gmail.com</string>
+
+    <!-- Main Activity -->
+    <string name="roads_on_map">Roads On</string>
+    <string name="roads_off_map">Roads Off</string>
+    <string name="record_path">Record Path</string>
+    <string name="location">Location:</string>
+    <string name="start_path">Start Path</string>
+    <string name="submit_path_title">Submit Path</string>
+    <string name="submit_path_yes">Submit</string>
+    <string name="submit_path_no">Discard</string>
+    <string name="max_speed_detected">Max Speed detected!</string>
+    <string name="record_time">Time:</string>
+    <string name="record_distance">Meters:</string>
+    <string name="record_speed">Speed:</string>
+    <string name="unable_to_load_all_paths">Unable to load all paths</string>
+    <string name="unable_to_creat_maps">Sorry! Unable to create maps</string>
+    <string name="select_path_type">Select Path Type</string>
+    <string name="btn_select_path_type">Select Path Type</string>
+    <string name="btn_submit_path_type">Submit</string>
+    <string name="btn_close_path_type">Discard</string>
+    <string name="path_type_prompt">Choose path type</string>
+
+    <string-array name="path_type_arrays">
+        <item>sidewalk</item>
+        <item>crosswalk</item>
+        <item>pedestrian walkway</item>
+        <item>accessible entrance</item>
+        <item>pedestrian bridge</item>
+        <item>pedestrian tunnel</item>
+        <item>trail</item>
+    </string-array>
+
+    <string name="alter_dialog_for_gps_on_start">GPS or Network provider is disabled in your device. For High accuracy enable both providers.</string>
+
+    <string name="title_alter_dialog_for_gps">Enable Location Services</string>
+    <string name="alter_dialog_for_gps">GPS or Network provider is disabled in your device. You can\'t start recording if you don\'t enable both providers (High accuracy).Enable it and try again.</string>
+    <string name="ok_button_of_alter_dialog_for_gps">Go to Settings Page</string>
+    <string name="cancel_button_of_alter_dialog_for_gps">Cancel</string>
+
+    <string name="title_alter_dialog_for_wifi">Enable WiFi</string>
+    <string name="alter_dialog_for_wifi">WiFi is disabled in your device. You can\'t start recording if you don\'t enable WiFi.Enable it and try again.</string>
+    <string name="ok_button_of_alter_dialog_for_wifi">Go to Settings Page</string>
+    <string name="cancel_button_of_alter_dialog_for_wifi">Cancel</string>
+
+    <string name="title_alter_dialog_for_mobile_data">Enable Mobile Data</string>
+    <string name="alter_dialog_for_mobile_data">Mobile data are disabled in your device. You can\'t start recording if you don\'t enable mobile data.Enable it and try again.</string>
+    <string name="ok_button_of_alter_dialog_for_mobile_data">Go to Settings Page</string>
+    <string name="cancel_button_of_alter_dialog_for_mobile_data">Cancel</string>
+
+    <string name="get_positive_balance_from_server_1">Congratulations! You won </string>
+    <string name="get_positive_balance_from_server_2">points, from positive rating of your uploaded paths.</string>
+    <string name="get_negative_balance_from_server_1">You lost </string>
+    <string name="get_negative_balance_from_server_2">points, from negative rating of your uploaded paths.</string>
+
+
+    <!-- Save Path Activity -->
+    <string name="record_finish">Record Finish</string>
+
+    <string name="first_part_of_zero_distance_message">This is a zero distance path</string>
+    <string name="first_part_of_zero_tag_locations_message_zero">without tagged locations.</string>
+    <string name="first_part_of_zero_tag_locations_message">There are not tagged locations.</string>
+
+
+    <string name="first_part_of_distance_message_to_user">If you upload the path, you will gain </string>
+    <string name="second_part_of_distance_message_to_user">points for having gone </string>
+    <string name="third_part_of_distance_message_to_user">meters.</string>
+
+    <string name="first_part_of_tag_locations_message_to_user_zero">But, if you upload the path you will gain </string>
+    <string name="first_part_of_tag_locations_message_to_user">Also, you will gain </string>
+    <string name="second_part_of_tag_locations_message_to_user">points for having tagged </string>
+    <string name="third_part_of_tag_locations_message_to_user">location(s).</string>
+
+    <string name="alter_dialog_for_discard">Are you sure you want to discard this path? This cannot be undone.</string>
+    <string name="ok_button_of_alter_dialog_for_discard">Yes</string>
+    <string name="cancel_button_of_alter_dialog_for_discard">No</string>
+
+    <string name="msg_already_uploaded">You have already uploaded the file. You can not upload it again.</string>
+
+    <!-- Service -->
+    <string name="my_location_service_started">Path Started</string>
+    <string name="my_location_service_label">PeersOnMap</string>
+    <string name="my_location_service_content">Path is Recording</string>
+
+    <!-- Review or Suggest Path -->
+    <string name="select_review_type">Review path:</string>
+    <string name="review_type_prompt">Choose a review</string>
+
+    <string-array name="review_type_arrays">
+        <item>not acceptable path</item>
+        <item>difficult to accept path</item>
+        <item>acceptable path</item>
+        <item>good path</item>
+        <item>excellent path</item>
+    </string-array>
+
+    <string name="select_review_tags_type">Review tags:</string>
+    <string name="tags_review_type_prompt">Choose a review</string>
+
+    <string name="select_path_for_review_1">Select path for Review or Suggestion</string>
+    <string name="select_path_for_review_2"> </string>
+    <string name="select_path_for_review_3">Make Review or Suggestion for selected path</string>
+    <string name="select_path_for_review_4">Make Review for selected path</string>
+
+    <string name="info_title"><b>Useful Information</b></string>
+    <string name="info_review_msg"><b>Review:</b> Select from review path and/or review tags and/or new path choices at the top of the page and press submit button.</string>
+    <string name="info_suggest_msg"><b>Suggestion:</b> Draw your suggestion line near the selected path.\r\nStart drawing with long tap on start point\r\nEnd drawing with long tap on end point and press submit button.</string>
+    <string name="close_info_txt"><b>OK</b></string>
+
+    <string-array name="tags_review_type_arrays">
+        <item>no tag accepted</item>
+        <item>less tags accepted</item>
+        <item>half tags accepted</item>
+        <item>most tags accepted</item>
+        <item>all tags accepted</item>
+    </string-array>
+
+    <string name="submit_review">Submit Review</string>
+    <string name="discard_review">Discard Review</string>
+    <string name="submit_suggestion">Submit Suggestion</string>
+    <string name="discard_suggestion">Discard Suggestion</string>
+
+    <string name="view_line_1">Walk</string>
+    <string name="view_line_2">Sketch</string>
+    <string name="view_line_3">Pending</string>
+    <string name="view_line_4">Suggested</string>
+
+    <string name="select_new_path_type">New Path:</string>
+    <string name="new_path_type_prompt">Choose</string>
+    <string-array name="new_path_type_arrays">
+        <item>Select</item>
+        <item>No(Already recorded)</item>
+        <item>Yes(First recording)</item>
+    </string-array>
+
+    <!-- Maps Activity-->
+    <string name="internet_connection_required">You must be connected to the internet.</string>
+    <string name="error_message_in_rank_of_players">Oops! An error occurred.</string>
+
+    <!-- Google Sign In Activity -->
+    <string name="sign_in">Sign In</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="loading">Sign In…</string>
+    <string name="google_title_text">Google Sign In</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="signin_title">Login with Google Account</string>
+
+    <!-- Google Play Game -->
+    <string name="signin_button">Sign in</string>
+    <string name="signout_button">Sign out</string>
+    <string name="signin_other_error">Sign in error</string>
+    <string name="signin_failure">Sign in failure</string>
+
+    <string name="games_leaderboard">Show Leaderboard</string>
+    <string name="games_achievements">Show Achievements</string>
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt;.</string>
+    <string name="permission_required_toast">Location permission is required.</string>
+
+    <!-- Settings -->
+    <string name="setting_mode">Mode</string>
+    <string name="setting_roads">Roads on Map</string>
+    <string name="setting_walk_paths">Walk Paths on Map</string>
+    <string name="setting_pend_paths">Pending Paths on Map</string>
+    <string name="setting_language">Language</string>
+    <string name="msg_language_change">You must restart PoM application in order to change language!</string>
+    <string name="def_appMode">Pedestrian</string>
+    <string name="def_mapRoads">Disabled</string>
+    <string name="msg_enabled">Enabled</string>
+    <string name="msg_disabled">Disabled</string>
+    <string name="def_language">English</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+</resources>

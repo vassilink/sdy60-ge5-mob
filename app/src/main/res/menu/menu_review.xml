@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ReviewPathActivity">
+
+    <item
+        android:id="@+id/submenu_show_maps"
+        android:title="@string/submenu_show_maps"
+        app:showAsAction="never"
+        tools:title="Χάρτης" />
+
+    <item
+        android:id="@+id/submenu_rank_list_of_players"
+        android:title="@string/submenu_rank_list_of_players"
+        tools:title="Βαθμολογία" />
+    <item
+        android:id="@+id/submenu_settings"
+        android:title="@string/submenu_settings"
+        app:showAsAction="never"
+        tools:title="Ρυθμίσεις" />
+
+    <item
+        android:id="@+id/submenu_log_out"
+        android:title="@string/submenu_log_out"
+        app:showAsAction="never"
+        tools:title="Αποσύνδεση" />
+
+</menu>

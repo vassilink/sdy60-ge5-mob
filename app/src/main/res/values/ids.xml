@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+    <!-- app_id -->
+    <string name="app_id" translatable="false">597881177695</string>
+    <!-- package_name -->
+    <string name="package_name" translatable="false">com.apap.pom</string>
+    <!-- achievement 10 paths -->
+    <string name="achievement_10_paths" translatable="false">CgkI34z7o7MREAIQAQ</string>
+    <!-- achievement 25 paths -->
+    <string name="achievement_25_paths" translatable="false">CgkI34z7o7MREAIQAg</string>
+    <!-- achievement 25 kms -->
+    <string name="achievement_25_kms" translatable="false">CgkI34z7o7MREAIQAw</string>
+    <!-- achievement 50 kms -->
+    <string name="achievement_50_kms" translatable="false">CgkI34z7o7MREAIQBA</string>
+    <!-- achievement 10 review -->
+    <string name="achievement_10_review" translatable="false">CgkI34z7o7MREAIQBQ</string>
+    <!-- achievement 25 review -->
+    <string name="achievement_25_review" translatable="false">CgkI34z7o7MREAIQBg</string>
+    <!-- leaderboard id -->
+    <string name="leaderboard_id" translatable="false">CgkI34z7o7MREAIQAA</string>
+</resources>

@@ -1,0 +1,230 @@
+<resources>
+    <string name="app_name">PoM</string>
+
+    <string name="title_activity_main">PoM</string>
+    <string name="title_activity_login">Σύνδεση</string>
+    <string name="title_activity_review_path">Αξιολόγηση-Σχεδίαση</string>
+    <string name="title_activity_maps">Χάρτης</string>
+    <string name="title_activity_game_players">Κατάταξη Παικτών</string>
+    <string name="title_activity_settings">Ρυθμίσεις</string>
+
+    <!-- Menu Items-->
+    <string name="action_menu">Μενού</string>
+    <string name="submenu_show_maps">Εμφάνιση Χάρτη</string>
+    <string name="submenu_review_paths">Αξιολόγηση-Σχεδίαση</string>
+    <string name="submenu_rank_list_of_players">Κατάταξη Παικτών</string>
+    <string name="submenu_log_out">Αποσύνδεση</string>
+    <string name="submenu_settings">Ρυθμίσεις</string>
+    <string name="submenu_about">Πληροφορίες</string>
+
+    <!-- Google Maps Key -->
+    <string name="google_maps_key">AIzaSyAQLZeQXnBL5AU93X4L8KeLQfqEVDzKy9A</string>
+
+    <!-- Supported Maps Names -->
+    <string name="map_of_athens">Χάρτης Αθήνας</string>
+    <string name="map_of_chania">Χάρτης Χανίων</string>
+    <string name="map_of_corfu">Χάρτης Κέρκυρας</string>
+    <string name="map_of_greece">Χάρτης Μονοπατιών</string>
+
+    <!-- About Popup -->
+    <string name="about_title">Πληροφορίες</string>
+    <string name="about_msg">PeersOnMap</string>
+    <string name="about_details">Αν έχετε κάποια ερώτηση ή σχόλιο σχετικά με την εφαρμογή PeersOnMap, παρακαλώ επικοινωνήστε μαζί μου στο: antpapapol@gmail.com</string>
+
+
+    <!-- Main Activity -->
+    <string name="roads_on_map">Εμφάνιση δρόμων</string>
+    <string name="roads_off_map">Απόκριψη δρόμων</string>
+    <string name="record_path">Καταγραφή Μονοπατιού</string>
+    <string name="location">Τοποθεσία:</string>
+    <string name="start_path">Έναρξη μονοπατιού</string>
+    <string name="submit_path_title">Καταχώρηση μονοπατιού</string>
+    <string name="submit_path_yes">Αποδοχή</string>
+    <string name="submit_path_no">Απόρριψη</string>
+    <string name="max_speed_detected">Υπέρβαση ορίου ταχύτητας!</string>
+    <string name="record_time">Χρόνος:</string>
+    <string name="record_distance">Μέτρα:</string>
+    <string name="record_speed">Ταχύτητα:</string>
+    <string name="unable_to_load_all_paths">Αδυναμία φόρτωσης των μονοπατιών</string>
+    <string name="unable_to_creat_maps">Παρουσιάστηκε πρόβλημα στη δημιουργία του χάρτη!</string>
+    <string name="select_path_type">Επιλογή τύπου μονοπατιού</string>
+    <string name="btn_select_path_type">Επιλογή τύπου μονοπατιού</string>
+    <string name="btn_submit_path_type">Αποδοχή</string>
+    <string name="btn_close_path_type">Απόρριψη</string>
+    <string name="path_type_prompt">Επιλογή τύπου μονοπατιού</string>
+
+<!--
+    <string-array name="path_type_arrays">
+        <item>Πεζοδρόμιο</item>
+        <item>Διάβαση</item>
+        <item>Πεζόδρομος</item>
+        <item>Προσβάσιμη είσοδος</item>
+        <item>Πεζογέφυρα</item>
+        <item>Πεζοδρομημένη σήραγγα</item>
+        <item>Μονοπάτι</item>
+    </string-array>
+-->
+    <string-array name="path_type_arrays">
+        <item>sidewalk</item>
+        <item>crosswalk</item>
+        <item>pedestrian walkway</item>
+        <item>accessible entrance</item>
+        <item>pedestrian bridge</item>
+        <item>pedestrian tunnel</item>
+        <item>trail</item>
+    </string-array>
+
+
+    <string name="alter_dialog_for_gps_on_start">Το GPS ή ο παροχέας δικτύου είναι απενεργοποιημένα στη συσκευή σου. Για υψηλή ακρίβεια ενεργοποίησε και τους δύο παροχής τοποθεσίας.</string>
+
+    <string name="title_alter_dialog_for_gps">Ενεργοποίηση υπηρεσιών τοποθεσίας</string>
+    <string name="alter_dialog_for_gps">Το GPS ή ο παροχέας δικτύου είναι απενεργοποιημένα στη συσκευή σου. Δεν μπορείς να ξεκινήσεις την καταγραφή αν δεν ενεργοποιήσεις και τους δύο παροχείς (Υψηλή ακρίβεια). Ενεργοποίησέ τα και προσπάθησε ξανά.</string>
+    <string name="ok_button_of_alter_dialog_for_gps">Μεταφορά στις ρυθμίσεις</string>
+    <string name="cancel_button_of_alter_dialog_for_gps">Ακύρωση</string>
+
+    <string name="title_alter_dialog_for_wifi">Ενεργοποίηση WiFi</string>
+    <string name="alter_dialog_for_wifi">Το WiFi είναι απενεργοποιημένο στη συσκευή σου. Δεν μπορείς να ξεκινήσεις την καταγραφή αν δεν το ενεργοποιήσεις. Ενεργοποίησέ το και προσπάθησε ξανά.</string>
+    <string name="ok_button_of_alter_dialog_for_wifi">Μεταφορά στις ρυθμίσεις</string>
+    <string name="cancel_button_of_alter_dialog_for_wifi">Ακύρωση</string>
+
+    <string name="title_alter_dialog_for_mobile_data">Ενεργοποίηση Mobile Data</string>
+    <string name="alter_dialog_for_mobile_data">Τα Δεδομένα Κινητής είναι απενεργοποιημένα στη συσκευή σου. Δεν μπορείς να ξεκινήσεις την καταγραφή αν δεν τα ενεργοποιήσεις. Ενεργοποίησέ τα και προσπάθησε ξανά.</string>
+    <string name="ok_button_of_alter_dialog_for_mobile_data">Μεταφορά στις ρυθμίσεις</string>
+    <string name="cancel_button_of_alter_dialog_for_mobile_data">Ακύρωση</string>
+
+    <string name="get_positive_balance_from_server_1">Συγχαρητήρια! Κέρδισες </string>
+    <string name="get_positive_balance_from_server_2">πόντους, από την θετική αξιολόγηση των μονοπατιών που κατέγραψες.</string>
+    <string name="get_negative_balance_from_server_1">Έχασες </string>
+    <string name="get_negative_balance_from_server_2">πόντους, από την αρνητική αξιολόγηση των μονοπατιών που κατέγραψες.</string>
+
+
+    <!-- Save Path Activity -->
+    <string name="record_finish">Τέλος καταγραφής</string>
+
+    <string name="first_part_of_zero_distance_message">Αυτό είναι ένα μονοπάτι μηδενικής απόστασης</string>
+    <string name="first_part_of_zero_tag_locations_message_zero">χωρίς να έχουν καταγραφεί ετικέτες τοποθεσίας.</string>
+    <string name="first_part_of_zero_tag_locations_message">Δεν έχουν καταγραφεί ετικέτες τοποθεσίας.</string>
+
+    <string name="first_part_of_distance_message_to_user">Αν ανεβάσεις το μονοπατι, θα κερδίσεις</string>
+    <string name="second_part_of_distance_message_to_user">πόντους έχοντας καταγράψει </string>
+    <string name="third_part_of_distance_message_to_user">μέτρα.</string>
+
+    <string name="first_part_of_tag_locations_message_to_user_zero">Αλλά, αν ανεβάσεις το μονοπάτι θα κερδίσεις </string>
+    <string name="first_part_of_tag_locations_message_to_user">Επίσης, θα κερδίσεις </string>
+    <string name="second_part_of_tag_locations_message_to_user">πόντους έχοντας καταγράψει </string>
+    <string name="third_part_of_tag_locations_message_to_user">ετικέτες τοποθεσίας.</string>
+
+    <string name="alter_dialog_for_discard">Είσαι σίγουρος ότι θέλεις να απορρίψεις αυτό το μονοπάτι; Αυτή η κίνηση δε μπορεί να αναιρεθεί.</string>
+    <string name="ok_button_of_alter_dialog_for_discard">Ναι</string>
+    <string name="cancel_button_of_alter_dialog_for_discard">Όχι</string>
+
+    <string name="msg_already_uploaded">Έχεις ήδη ανεβάσει το μονοπάτι. Δεν μπορείς να το ανεβάσεις ξανά.</string>
+
+
+    <!-- Service -->
+    <string name="my_location_service_started">Έναρξη καταγραφής</string>
+    <string name="my_location_service_label">PeersOnMap</string>
+    <string name="my_location_service_content">Καταγραφή μονοπατιού</string>
+
+
+    <!-- Review or Suggest Path -->
+    <string name="select_review_type">Αξιολόγηση μονοπατιού:</string>
+    <string name="review_type_prompt">Επίλεξε αξιολόγηση</string>
+
+    <string-array name="review_type_arrays">
+        <item>μη αποδεκτό μονοπάτι</item>
+        <item>δύσκολα αποδεκτό μονοπάτι</item>
+        <item>αποδεκτό μονοπάτι</item>
+        <item>καλό μονοπάτι</item>
+        <item>πολύ καλό μονοπάτι</item>
+    </string-array>
+
+    <string name="select_review_tags_type">Αξιολόγηση ετικετών:</string>
+    <string name="tags_review_type_prompt">Επίλεξε αξιολόγηση</string>
+
+    <string name="select_path_for_review_1">Επίλεξε μονοπάτι για Αξιολόγηση ή Σχεδίαση</string>
+    <string name="select_path_for_review_2"> </string>
+    <string name="select_path_for_review_3">Αξιολόγησε ή Σχεδίασε το επιλεγμένο μονοπάτι</string>
+    <string name="select_path_for_review_4">Αξιολόγησε το επιλεγμένο μονοπάτι</string>
+
+
+    <string name="info_title"><b>Χρήσιμη Πληροφορία</b></string>
+    <string name="info_review_msg"><b>Αξιολόγηση:</b> Επίλεξε από τις επιλογές αξιολόγησης μονοπατιού και/ή αξιολόγησης ετικετών και/ή σήμανσης νέου μονοπατιού στο πάνω μέρος της οθόνης και πάτα το κουμπί αξιολόγησης.</string>
+    <string name="info_suggest_msg"><b>Σχεδίαση:</b> Σχεδίασε το προτεινόμενο διορθωμένο μονοπάτι κοντά στο επιλεγμένο μονοπάτι.\r\nΞεκίνησε να σχεδιάζεις με ένα μακρύ πάτημα στο σημείο εκκίνησης\r\nΤερμάτισε τη σχεδίαση με ένα μακρύ πάτημα στο σημείο τερματισμού και πάτησε το κουμπί σχεδίασης.</string>
+    <string name="close_info_txt"><b>OK</b></string>
+
+
+    <string-array name="tags_review_type_arrays">
+        <item>καμία ετικέτα αποδεκτή</item>
+        <item>λίγες ετικέτες αποδεκτές</item>
+        <item>οι μισές ετικέτες αποδεκτές</item>
+        <item>οι περισσότερες ετικέτες αποδεκτές</item>
+        <item>όλες οι ετικέτες αποδεκτές</item>
+    </string-array>
+
+    <string name="submit_review">Αποστολή Αξιολόγησης</string>
+    <string name="discard_review">Απόρριψη Αξιολόγησης</string>
+    <string name="submit_suggestion">Αποστολή Σχεδίασης</string>
+    <string name="discard_suggestion">Απόρριψη Σχεδίασης</string>
+
+    <string name="view_line_1">Walk</string>
+    <string name="view_line_2">Sketch</string>
+    <string name="view_line_3">Pending</string>
+    <string name="view_line_4">Suggested</string>
+
+
+    <string name="select_new_path_type">Νέο Μονοπάτι:</string>
+    <string name="new_path_type_prompt">Επιλογή</string>
+    <string-array name="new_path_type_arrays">
+        <item>Επίλεξε</item>
+        <item>Όχι(Ήδη καταγεγραμμένο)</item>
+        <item>Ναι(Πρώτη καταγραφή)</item>
+    </string-array>
+
+
+    <!-- Maps Activity-->
+    <string name="internet_connection_required">Πρέπει να υπάρχει σύνδεση Διαδικτύου.</string>
+    <string name="error_message_in_rank_of_players">Oops! Παρουσιάστηκε κάποιο σφάλμα.</string>
+
+
+    <!-- Google Sign In Activity -->
+    <string name="sign_in">Σύνδεση</string>
+    <string name="sign_out">Αποσύνδεση</string>
+    <string name="signed_out">Αποσυνδεδεμένος</string>
+    <string name="loading">Σύνδεση…</string>
+    <string name="google_title_text">Google Σύνδεση</string>
+    <string name="disconnect">Αποσύνδεση</string>
+    <string name="signin_title">Σύνδεση με λογαριασμό Google</string>
+
+
+    <!-- Google Play Game -->
+    <string name="signin_button">Σύνδεση</string>
+    <string name="signout_button">Αποσύνδεση</string>
+    <string name="signin_other_error">Σφάλμα σύνδεσης</string>
+    <string name="signin_failure">Αποτυχία σύνδεσης</string>
+
+    <string name="games_leaderboard">Εμφάνιση Κατάταξης</string>
+    <string name="games_achievements">Εμφάνιση Επιτευγμάτων</string>
+
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt;.</string>
+    <string name="permission_required_toast">Location permission is required.</string>
+
+
+    <!-- Settings -->
+    <string name="setting_mode">Λειτουργία</string>
+    <string name="setting_roads">Δίκτυο δρόμων στο χάρτη</string>
+    <string name="setting_walk_paths">Καταγεγραμμένα μονοπάτια στο χάρτη</string>
+    <string name="setting_pend_paths">Εκκρεμή μονοπάτια στο χάρτη</string>
+    <string name="setting_language">Γλώσσα</string>
+    <string name="msg_language_change">Πρέπει να επανεκκινήσεις την εφαρμογή PoM για να ολοκληρωθεί η αλλαγή της γλώσσας!</string>
+    <string name="def_appMode">Πεζοί</string>
+    <string name="def_mapRoads">Όχι</string>
+    <string name="msg_enabled">Ναι</string>
+    <string name="msg_disabled">Όχι</string>
+    <string name="def_language">English</string>
+    <string name="title_activity_sign_in">Είσοδος</string>
+
+</resources>

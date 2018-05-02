@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference android:title="@string/setting_mode"
+        android:summary="@string/def_appMode"
+        android:key="appMode"
+        android:defaultValue="1"
+        android:entries="@array/appModesListArray"
+        android:entryValues="@array/appModesListValues" />
+
+    <CheckBoxPreference android:title="@string/setting_roads"
+        android:defaultValue="true"
+        android:key="appMapRoads" />
+
+    <CheckBoxPreference android:title="@string/setting_walk_paths"
+        android:defaultValue="true"
+        android:key="appMapWalkPaths" />
+
+    <CheckBoxPreference android:title="@string/setting_pend_paths"
+        android:defaultValue="false"
+        android:key="appMapPendPaths" />
+
+    <ListPreference android:title="@string/setting_language"
+        android:summary="@string/def_language"
+        android:key="appLanguage"
+        android:defaultValue="1"
+        android:entries="@array/appLangListArray"
+        android:entryValues="@array/appLangListValues" />
+
+</PreferenceScreen>

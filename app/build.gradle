@@ -1,0 +1,59 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'keyge5pom0'
+            keyPassword 'ge5p0m#01'
+            storeFile file('C:/Users/Vassilis/ge5pom02.jks')
+            storePassword 'ge5@sdy602504'
+        }
+    }
+    compileSdkVersion 24 /* 24 */
+    buildToolsVersion '27.0.3' /* 25.0.0. */ /* 27.0.3 */
+    defaultConfig {
+        applicationId "com.apap.pom"
+        minSdkVersion 16
+        targetSdkVersion 24 /* 24 */
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        signingConfig signingConfigs.config
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        debug {
+            signingConfig signingConfigs.config
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation project(':BaseGameUtils')
+    implementation 'com.android.support:appcompat-v7:24.0.0' /* 24.2.1 */ /* 27.1.1 */
+    implementation 'com.google.android.gms:play-services:11.8.0' /* 12.0.1 */ /* 11.8.0 */
+    implementation 'com.google.android.gms:play-services-analytics:11.8.0' /* 10.2.0 */ /* 11.8.0 */
+    implementation 'com.google.maps:google-maps-services:0.1.6'
+    implementation 'com.android.support:design:24.0.0' /* 24.2.1 */
+    implementation 'com.android.support:support-v4:24.0.0' /* 24.2.1 */
+    implementation 'com.google.maps.android:android-maps-utils:0.4.+'
+    implementation 'com.google.firebase:firebase-core:11.8.0' /* 10.2.0 */ /* 11.8.0 */
+    implementation 'com.google.firebase:firebase-crash:11.8.0' /* 10.2.0 */ /* 11.8.0 */
+    implementation 'com.google.firebase:firebase-auth:11.8.0' /* 10.0.1 */ /* 11.8.0 */
+    implementation 'com.android.support.constraint:constraint-layout:1.0.0-alpha4'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.android.support:multidex:1.0.1'
+}
+
+apply plugin: 'com.google.gms.google-services'
